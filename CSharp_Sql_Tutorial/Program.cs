@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using EdDbLib;
 
+
 namespace CSharp_Sql_Tutorial
 {
     class Program
@@ -36,14 +37,15 @@ namespace CSharp_Sql_Tutorial
 			//major = majorsCtrl.GetByPk(111111);
 			//Console.WriteLine(major);
 
-			major.Description += " - By Greg";
+			major.Description += "UWBW - By Jason";
 			var rowsAffected = majorsCtrl.Change(major);
 			if (rowsAffected != 1)
 			{
 				Console.WriteLine("Change failed!");
 			}
 
-
+			//rowsAffected = majorsCtrl.Remove(major.ID);
+			
 			var majors = majorsCtrl.GetAll();
 			foreach (var maj in majors)
 			{
