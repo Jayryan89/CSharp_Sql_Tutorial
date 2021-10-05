@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_Sql_Tutorial", "CSharp_Sql_Tutorial\CSharp_Sql_Tutorial.csproj", "{576A25EB-6D06-4A08-B401-74D3ED320E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdDbLib", "EdDbLib\EdDbLib.csproj", "{76EA6EF5-2673-44B8-A077-01DFB25801D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{576A25EB-6D06-4A08-B401-74D3ED320E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576A25EB-6D06-4A08-B401-74D3ED320E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576A25EB-6D06-4A08-B401-74D3ED320E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576A25EB-6D06-4A08-B401-74D3ED320E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EA6EF5-2673-44B8-A077-01DFB25801D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EA6EF5-2673-44B8-A077-01DFB25801D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EA6EF5-2673-44B8-A077-01DFB25801D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EA6EF5-2673-44B8-A077-01DFB25801D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40822FE8-ECB4-416F-ABC8-B97D8C614157}
+	EndGlobalSection
+EndGlobal
